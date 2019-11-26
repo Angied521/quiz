@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <title>Quiz</title>
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">View High Score</a>
+    <p>Timer: <span id="timer">75</span> Seconds</p>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12 mx-auto">
+
+                <div id="question-container" class="hide">
+                    <div id="question"><h2>Coding Quiz</h2>
+                        <p>Answer 5 questions within 75 seconds.  If you answer wrong, 15 are deducted from you time. See you high score at the end. To start click the button</p>
+                        <div id="answer-buttons" class= "btn-grid">
+                            <button class="btn">Answer 1</button>
+                            <button class="btn">Answer 2</button>
+                            <button class="btn">Answer 3</button>
+                            <button class="btn">Answer 4</button>
+                            <button class="btn">Answer 5</button>
+                      
+         
+                            <div class="controls">
+                            <button id="start-btn" class="start-btn btn">Start</button>
+                            <button id="next-btn" class="Next-btn btn hide">Next</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
